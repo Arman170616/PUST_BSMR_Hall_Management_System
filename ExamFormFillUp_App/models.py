@@ -8,3 +8,5 @@ class User(models.Model):
     name = models.CharField(max_length=200, blank=True)
     email = models.EmailField(max_length=100, blank=True)
     password = models.CharField(max_length=200)
+    #হলের_নাম = models.CharField(max_length=200) 
+    date = models.DateTimeField(auto_now_add=True)
